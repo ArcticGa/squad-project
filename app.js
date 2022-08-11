@@ -26,7 +26,7 @@ const freaks = [
   {
     id: 3,
     title: 'Стас Кутырев',
-    age: 18,
+    age: 19,
     description: 'ахахахахах',
     imageInfo:
       'https://sun9-north.userapi.com/sun9-80/s/v1/ig2/y4Mm6mHk2jVE95sMlH7xoAfPieKxyV7kyjr5JE0uVmQV6DqFDFTmZl5GegLiuhA0H2NhX8gyiep7c1nwl0a-syed.jpg?size=2560x1920&quality=96&type=album',
