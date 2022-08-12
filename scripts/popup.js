@@ -29,7 +29,6 @@ function _createModal(options) {
 }
 
 $.modal = function (options) {
-  const container = document.querySelector('.container')
   const ANIMATION_SPEED = 300
   const $modal = _createModal(options)
   let closing = false
@@ -37,13 +36,11 @@ $.modal = function (options) {
   const modal = {
     open() {
       !closing && $modal.classList.add('open')
-      container.classList.add('lock-scroll')
     },
 
     close() {
       closing = true
       $modal.classList.remove('open')
-      container.classList.remove('lock-scroll')
       $modal.classList.add('hide')
       setTimeout(() => {
         $modal.classList.remove('hide')

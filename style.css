@@ -6,6 +6,23 @@
 *::after {
   box-sizing: border-box;
 }
+
+*::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+*::-webkit-scrollbar {
+  width: 12px;
+  background-color: #222438;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #111;
+}
+
 ul[class],
 ol[class] {
   padding: 0;
@@ -33,6 +50,8 @@ body {
   line-height: 1.5;
   background: url('images/bg.png');
   font-family: Roboto;
+  display: flex;
+  flex-direction: column;
 }
 ul[class],
 ol[class] {
@@ -60,6 +79,7 @@ select {
   max-width: 1700px;
   width: 100%;
   margin: 0 auto;
+  flex: 1;
 }
 
 .up-info {
@@ -67,7 +87,7 @@ select {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 4rem;
+  margin-bottom: 1.7rem;
 }
 
 h1 {
@@ -81,7 +101,7 @@ h1 {
 .cards {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  margin-bottom: 6rem;
 }
 
 .card {
@@ -91,7 +111,7 @@ h1 {
   min-width: 17rem;
   height: 22rem;
   border-radius: 12px;
-  margin: 0 20px 20px 20px;
+  margin: 20px;
   display: flex;
   align-items: end;
   box-shadow: 0px 0px 60px 20px rgba(34, 60, 80, 0.2);
@@ -163,6 +183,29 @@ h1 {
   opacity: 1;
 }
 
+footer {
+  position: relative;
+  background: #11121c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px 0;
+}
+footer p {
+  font-size: 1.3rem;
+  max-width: 20%;
+  text-align: center;
+  color: #fff;
+}
+
+footer div {
+  font-size: 1.5rem;
+  bottom: 15px;
+  right: 30px;
+  position: absolute;
+  color: #fff;
+}
+
 /* Кодинг модалки */
 .popup .popup-overlay {
   position: fixed;
@@ -184,17 +227,16 @@ h1 {
   display: flex;
   flex-direction: column;
   width: 95%;
-  max-height: 90vh;
-  height: 90vh;
+  min-height: 90vh;
   padding: 1.25rem 1.5rem;
   opacity: 0;
   transition: 0.3s ease-in-out;
-  overflow: hidden;
 }
 .popup-window::after {
   z-index: 2;
   content: '';
   position: absolute;
+  border-radius: 15px;
   background: rgb(0, 0, 0);
   background: linear-gradient(
     90deg,
@@ -255,7 +297,6 @@ h1 {
 }
 
 .popup-window .popup-info h2 {
-  margin-bottom: 20px;
   font-size: 3.5rem;
   z-index: 10;
   max-width: 35%;
@@ -266,7 +307,6 @@ h1 {
   z-index: 5;
   max-width: 35%;
   margin-bottom: 20px;
-  overflow: hidden;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -286,10 +326,13 @@ h1 {
 }
 
 .popup-window .popup-info p {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   max-width: 35%;
   z-index: 10;
+  max-height: 50vh;
   flex: 1;
+  word-wrap: break-word;
+  overflow: auto;
 }
 
 .popup-window .popup-info img {
@@ -298,13 +341,10 @@ h1 {
   right: 0;
   width: 72%;
   height: 100%;
+  border-radius: 0 15px 15px 0;
 }
 
 /* Анимашки */
-.lock-scroll {
-  height: 100vh;
-  overflow: hidden;
-}
 
 .popup.open .popup-overlay,
 .popup.open .popup-window {
@@ -337,29 +377,60 @@ h1 {
   background: rgba(0, 0, 0, 0.5);
 }
 
+/* Скролл */
+.popup-window .popup-info p::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.popup-window .popup-info p::-webkit-scrollbar {
+  width: 12px;
+  background-color: transparent;
+}
+
+.popup-window .popup-info p::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #555;
+}
+
 /* Медииииаааа ИИУУУУУУ */
 @media screen and (max-width: 450px) {
   * {
     font-size: 12px;
   }
 
+  *::-webkit-scrollbar {
+    width: 12px;
+    background-color: #000;
+  }
+
+  .cards {
+    justify-content: center;
+  }
+
+  footer p {
+    max-width: 100%;
+    margin-bottom: 2.5rem;
+    font-size: 1.5rem;
+  }
+
   .card {
-    width: 70vh;
-    height: 35rem;
+    width: 80vw;
+    min-height: 38rem;
     margin-bottom: 5rem;
   }
 
+  .popup-window {
+    background: #000;
+    min-height: 45vh;
+    overflow: auto;
+  }
   .popup-window .popup-links {
     display: none !important;
   }
   .popup-window .popup-info img {
     display: none;
-  }
-  .popup-window {
-    background: #000;
-    overflow: scroll;
-    min-height: 45vh;
-    height: auto;
   }
   .popup-info {
     margin-left: 0px !important;
@@ -372,8 +443,9 @@ h1 {
     margin-bottom: 4rem;
   }
   .popup-window .popup-info p {
-    max-width: 100%;
-    font-size: 2rem;
+    max-width: 80vw;
+    font-size: 1.65rem;
+    overflow: visible;
   }
   .popup-window .popup-info .usual {
     max-width: 100%;
