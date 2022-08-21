@@ -3,7 +3,7 @@ export const freaks = [
     id: 1,
     title: 'Никита Жуков',
     age: 18,
-    description: '...',
+    description: 'Чел въябался сдавая назад на VolksFucking Polo имея блять камеру заднего вида нахуй!!! (by Амир Б.)',
     imageInfo:
       'https://sun9-west.userapi.com/sun9-47/s/v1/ig2/l4DjIOl6rnlx6xWzGwb5FsAhfFu40vdOogiw9eTgHECG4FunuVCCIvCTDP0n87cGsiH5vasAMONFxAOR7m95y_uo.jpg?size=1200x1600&quality=96&type=album',
     imageCard:
@@ -25,7 +25,7 @@ export const freaks = [
     id: 2,
     title: 'Амир Баймухаметов',
     age: 19,
-    description: '...',
+    description: 'Сдохнет завтра',
     imageInfo:
       'https://sun9-east.userapi.com/sun9-33/s/v1/ig2/OUz7nQX4ccBTbtleW1GUKQUd4jdZKjI6yoAYKxuE930gdNYQi_LBra-iem5kcpCNZhU6qVid7QkUqhz_nYACqIST.jpg?size=1620x2160&quality=96&type=album',
     imageCard:
@@ -45,7 +45,7 @@ export const freaks = [
     id: 3,
     title: 'Стас Кутырев',
     age: 19,
-    description: '...',
+    description: '',
     imageInfo:
       'https://sun9-west.userapi.com/sun9-45/s/v1/ig2/WmRtll3nSCqgitEKgNf4W_vLr4e_OW4XF_puIbN9ly-8Jh6zCd-5WGCLvv6PQAXgf6UHfP41WAT9hnnlXUL0h9Cz.jpg?size=1200x1600&quality=96&type=album',
     imageCard:
@@ -64,7 +64,7 @@ export const freaks = [
     id: 4,
     title: 'Саня Зотов',
     age: 19,
-    description: 'Крутой челик, знаком с ним не по годам.',
+    description: '',
     imageInfo:
       'https://sun9-east.userapi.com/sun9-43/s/v1/ig2/CyBhJndHX91zCTdGPfQRkL0QV86qAUl05VRJwQBvySD-ETiBZT1yakpQ95TzJFxWX-9gg1Un_J_bJ1JGbDFN6rF_.jpg?size=1620x2160&quality=96&type=album',
     imageCard:
@@ -76,13 +76,13 @@ export const freaks = [
     id: 5,
     title: 'Дима Маренин',
     age: 19,
-    description: '...',
+    description: 'Супер ровный чел, но ёбаный D-club...',
     imageInfo:
       'https://sun9-east.userapi.com/sun9-42/s/v1/ig2/xF5ZMixHG-6bHjcX4vmjzEU_mpmBR8Yd8yhl_EiVfZ7RwstikTr5qQ-2e-XlESH-zoqq5Cnix8qVQmRs5vhwiTXa.jpg?size=960x960&quality=96&type=album',
     imageCard:
       'https://sun1.is74.userapi.com/s/v1/ig2/td2bkPtNOQgy51CUAHI3wi45uyNn1Xazcv6Gzn2te6WyEvkJGgBmcvoFwZ62ppIX9u_-pfPkc5zK8Ow8Vd21N1PS.jpg?size=1047x1600&quality=96&type=album',
     usual: ['...'],
-    idol: 'face-sunglasses',
+    idol: 'd',
   },
   {
     id: 6,
@@ -94,25 +94,26 @@ export const freaks = [
     imageCard:
       'https://sun9-north.userapi.com/sun9-87/s/v1/ig2/7z1W6AU9V2CSTp4fb2da8Eknu9m9sOnUP8UKKeyWExs0-kczXEMLYoS4fZ7Ak1O6hX9zaoP8UoF2J82y69J_om5i.jpg?size=1200x1600&quality=95&type=album',
     usual: ['...'],
-    idol: 'burger',
+    idol: 'wine-glass',
+    
   },
   {
     id: 7,
     title: 'Леха Бакуменко',
     age: 18,
-    description: '...',
+    description: 'Пивной локомотив',
     imageInfo:
       'https://sun9-west.userapi.com/sun9-12/s/v1/ig2/hBOdWhk-a7eM7hAuJ_SMBAEASrubNnTuwztVGWkZw6a2eoMhqHqM1PlEFmRvPNYI0Zs2Jix5nh-yu17vBTaag77y.jpg?size=1600x1200&quality=95&type=album',
     imageCard:
       'https://sun9-east.userapi.com/sun9-19/s/v1/if1/zMKi1Spcwrh5FbLm2_feZO69jABOuDN05AWwHSNx_JUGjQUZoM6dmpDO1j4Z3BAffAr4RmZJ.jpg?size=1506x2130&quality=96&type=album',
     usual: ['...'],
-    idol: 'burger',
+    idol: 'beer-mug',
   },
   {
     id: 8,
     title: 'Камиль Тагиров',
     age: 18,
-    description: '...',
+    description: 'King of the jungle',
     imageInfo:
       'https://sun9-west.userapi.com/sun9-64/s/v1/ig2/9JC8AVktXY8orxRCHJDHB8BeVn-scLuwacPnN1AUoE99GHqDLumUg8Y7WNdCPeiZ8kIVKUKPEf2u7vnvcX0QGQZD.jpg?size=2560x1920&quality=95&type=album',
     imageCard:
@@ -125,7 +126,7 @@ export const freaks = [
     title: 'Женя Пеляницын',
     age: 18,
     description: '...',
-    imageInfo: '',
+    imageInfo: 'https://sun9-20.userapi.com/impg/9N6hP88MJlrw9pkDL3s_LndikEvwbQM0mDfLcg/fP0wM6Kw7P0.jpg?size=1279x853&quality=96&sign=6b8dd42c93a67a9fc5346d53f634c8ff&type=album',
     imageCard:
       'https://sun9-west.userapi.com/sun9-45/s/v1/ig2/cYRRiWTKb3J72uZZohNo-2X4TRgP0gSSd08wCsZHrav8WWtzIZW-haUudkPuJCz2lC27eg6yP0aq6Ci6Ifms7-xu.jpg?size=305x455&quality=96&type=album',
     usual: ['...'],
