@@ -85,31 +85,6 @@ export const freaks = [
     idol: 'd',
   },
   {
-    id: 6,
-    title: 'Саня Шмельков',
-    age: 19,
-    description: '...',
-    imageInfo:
-      'https://sun9-west.userapi.com/sun9-4/s/v1/ig2/82pXeSpef3gaqlVXPjtiOr3zrt7oGARpCbMs_62FTXPyQJ0mFyPNHVcUveUQwf3_lwZafzjaRTse4BlnJgryN9bk.jpg?size=1600x1200&quality=95&type=album',
-    imageCard:
-      'https://sun9-north.userapi.com/sun9-87/s/v1/ig2/7z1W6AU9V2CSTp4fb2da8Eknu9m9sOnUP8UKKeyWExs0-kczXEMLYoS4fZ7Ak1O6hX9zaoP8UoF2J82y69J_om5i.jpg?size=1200x1600&quality=95&type=album',
-    usual: ['...'],
-    idol: 'wine-glass',
-    
-  },
-  {
-    id: 7,
-    title: 'Леха Бакуменко',
-    age: 18,
-    description: 'Пивной локомотив',
-    imageInfo:
-      'https://sun9-west.userapi.com/sun9-12/s/v1/ig2/hBOdWhk-a7eM7hAuJ_SMBAEASrubNnTuwztVGWkZw6a2eoMhqHqM1PlEFmRvPNYI0Zs2Jix5nh-yu17vBTaag77y.jpg?size=1600x1200&quality=95&type=album',
-    imageCard:
-      'https://sun9-east.userapi.com/sun9-19/s/v1/if1/zMKi1Spcwrh5FbLm2_feZO69jABOuDN05AWwHSNx_JUGjQUZoM6dmpDO1j4Z3BAffAr4RmZJ.jpg?size=1506x2130&quality=96&type=album',
-    usual: ['...'],
-    idol: 'beer-mug',
-  },
-  {
     id: 8,
     title: 'Камиль Тагиров',
     age: 18,
