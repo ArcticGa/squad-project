@@ -38,8 +38,6 @@ document.addEventListener('click', (event) => {
       <img src="${freak.imageInfo}">
     `)
 
-    console.log(freak.idol)
-
     const usual = document.querySelector('#usual')
     freak.usual.map((item) => {
       const el = document.createElement('div')
