@@ -1,4 +1,4 @@
-export const freaks = [
+export const guys = [
   {
     id: 1,
     title: 'Jena Doe',
@@ -22,7 +22,7 @@ export const freaks = [
       'https://img.freepik.com/free-photo/handsome-confident-smiling-man-with-hands-crossed-on-chest_176420-18743.jpg?w=2000',
     imageCard:
       'https://img.freepik.com/free-photo/handsome-confident-smiling-man-with-hands-crossed-on-chest_176420-18743.jpg?w=2000',
-    usual: ['Frendly','Developer', 'Man' ],
+    usual: ['Frendly', 'Developer', 'Man'],
     idol: 'burger',
   },
 ]
