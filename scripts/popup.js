@@ -9,8 +9,7 @@ function _createModal(options) {
           <div class="popup-header">
             <div class="popup-nav">
               <ul class="popup-links">
-                <li class="active">О челе</li>
-                <li>Фоточки</li>
+                <li class="active">About</li>
               </ul>
               <div class="close-icon">
                 <img src="images/xmark.svg" data-close="true" />
